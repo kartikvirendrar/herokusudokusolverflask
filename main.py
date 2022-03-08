@@ -193,7 +193,7 @@ def call_solver(imgpath):
     unsolved_grid = grid.tolist()
 
     if solve(grid):
-        Solved(grid)
+        # Solved(grid)
     else:
         print("Solution don't exist or Model misread digits.")
     
